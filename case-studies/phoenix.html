@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BirdDog Platform Modernization · Ward Seward</title>
+  <meta name="description" content="Case study: BirdDog Platform Modernization — rebuilding the platform with a Vue/TypeScript front-end and a new unified design system, section by section.">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="../assets/favicon_io/favicon.ico">
+  <link rel="manifest" href="../assets/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">Ward Seward</a>
+      <ul class="nav-links">
+        <li><a href="../work.html">← Work</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+        <li class="nav-cta"><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="cs-hero">
+    <div class="cs-hero-inner">
+      <p class="cs-meta">Case Study · UX/UI Design &amp; Front-End Development · 2025–Present</p>
+      <h1 class="cs-title">BirdDog<br>Platform Modernization</h1>
+      <p class="cs-subtitle">A full platform rebuild — section by section — replacing a legacy codebase with a modern Vue/TypeScript front-end and a new unified design system. Every page redesigned for clarity, speed, and usability as part of the conversion.</p>
+      <div class="cs-stats">
+        <div class="cs-stat">
+          <div class="cs-stat-value">Vue / TS</div>
+          <div class="cs-stat-label">Modern front-end stack replacing legacy</div>
+        </div>
+        <div class="cs-stat">
+          <div class="cs-stat-value">New DS</div>
+          <div class="cs-stat-label">Design system created &amp; evolved</div>
+        </div>
+        <div class="cs-stat">
+          <div class="cs-stat-value">AI-Led</div>
+          <div class="cs-stat-label">Plan, build, debug — AI-accelerated delivery</div>
+        </div>
+        <div class="cs-stat" style="border-right: none; padding-right: 0; margin-right: 0;">
+          <div class="cs-stat-role">UX/UI Designer &amp; Front-End Developer</div>
+          <div class="cs-stat-label">BirdDog Software Corp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Image -->
+  <div class="cs-hero-img">
+    <img src="../assets/portgrabs/_PHX%20Screens/My-Projects.png" alt="BirdDog Platform Modernization — My Projects dashboard">
+  </div>
+
+  <!-- Problem + Goals -->
+  <div class="cs-two-col">
+    <div>
+      <p class="cs-section-label">The Problem</p>
+      <h2 class="cs-section-title">A capable platform held back by aging technology</h2>
+      <ul class="cs-bullets">
+        <li><strong>Legacy tech stack.</strong> The existing BirdDog platform was built on older technologies that made it slow to maintain, difficult to extend, and increasingly inconsistent in visual behavior.</li>
+        <li><strong>No unified design language.</strong> Each area of the app had grown organically — resulting in visual inconsistency, mixed interaction patterns, and a dated aesthetic that didn't reflect the product's capabilities.</li>
+        <li><strong>UX debt accumulation.</strong> As the product matured, usability improvements were deferred. The conversion was an opportunity to address long-standing friction points, not just rewrite code.</li>
+        <li><strong>Complex, high-stakes workflows.</strong> Purchase orders, vendor shipments, time tracking, and project management aren't forgiving — errors have real operational cost. The redesign needed to reduce mistakes, not just modernize looks.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="cs-section-label">Goals</p>
+      <h2 class="cs-section-title">What success looked like</h2>
+      <ol class="cs-numbered">
+        <li><span class="num">01</span> Replace the legacy front-end with a maintainable, performant Vue/TypeScript codebase — section by section, without disrupting active users.</li>
+        <li><span class="num">02</span> Establish and evolve a unified design system: a consistent visual language, interaction patterns, and component library applicable across the full platform.</li>
+        <li><span class="num">03</span> Use each page rebuild as an opportunity to identify and solve usability issues — improving workflows, reducing errors, and increasing clarity.</li>
+        <li><span class="num">04</span> Deliver a platform that feels modern, trustworthy, and fast — reinforcing BirdDog's credibility with its users.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Process -->
+  <section style="padding: 0 var(--pad-x) 80px; border-top: 1px solid var(--border);">
+    <div style="max-width: var(--max-w); margin: 0 auto; padding-top: 80px;">
+      <p class="cs-section-label">How We Worked</p>
+      <h2 class="cs-section-title">A section-by-section conversion with UX at every step</h2>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-num">01 — Audit</div>
+          <div class="process-title">Understand the existing page</div>
+          <p class="process-body">Before rebuilding anything, I reviewed the existing page — its workflows, data, edge cases, and known pain points. I led discussions with stakeholders and developers to surface usability gaps and improvement opportunities.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">02 — Design &amp; Plan</div>
+          <div class="process-title">Redesign first, then specify</div>
+          <p class="process-body">Each section was redesigned to reflect the new design standards: consistent layout grids, typography, color, and component patterns. AI was used to accelerate planning — generating component specs, layout structures, and interaction logic to review and refine.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-num">03 — Build &amp; Validate</div>
+          <div class="process-title">Build, test, and improve</div>
+          <p class="process-body">I developed the Vue/TypeScript front-end, using AI to write, debug, and refine code. Each completed section was validated against usability standards and stakeholder expectations before moving on to the next.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Decisions -->
+  <section class="cs-dd-section">
+    <div class="cs-dd-section-inner">
+      <div class="cs-dd-header">
+        <p class="cs-section-label">Key Design Decisions</p>
+        <h2 class="cs-section-title">What changed — and why</h2>
+      </div>
+
+      <!-- DD01 — Design System -->
+      <div class="cs-dd-row">
+        <div>
+          <div class="dd-num">01</div>
+          <h3 class="dd-title">A new visual identity: a unified design system</h3>
+          <p class="dd-body">The legacy platform had no unified design language — styles varied by page and by age. I created the design system from the ground up: a clean, modern aesthetic with consistent color, typography, spacing, and component patterns that I continue to evolve with each new section.</p>
+          <p class="dd-body">The new system emphasizes clarity and hierarchy — making it immediately obvious what's data, what's an action, and what requires attention. Every screen in the modernized platform reflects this shared foundation.</p>
+        </div>
+        <div class="dd-img">
+          <div class="cs-compare">
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">Before</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/_OLD/My-Projects.png" alt="My Projects — before">
+            </div>
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">After</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/My-Projects.png" alt="My Projects — after">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DD02 — List Views -->
+      <div class="cs-dd-row reverse">
+        <div>
+          <div class="dd-num">02</div>
+          <h3 class="dd-title">Cleaner list views with consistent filtering</h3>
+          <p class="dd-body">List pages are the most frequently visited — users scan them dozens of times per day. The legacy list views had dense, visually cluttered layouts with inconsistent column sizing and no clear hierarchy between primary and secondary information.</p>
+          <p class="dd-body">The redesigned list views establish a clear structure: consistent column headers, readable row density, status indicators that use color purposefully, and standardized filter/search controls shared across all list pages.</p>
+          <div class="callout">"The new views make it so much easier to find what I need at a glance."</div>
+        </div>
+        <div class="dd-img">
+          <div class="cs-compare">
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">Before</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/_OLD/Purchase-Orders.png" alt="Purchase Orders list — before">
+            </div>
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">After</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/Purchase-Orders.png" alt="Purchase Orders list — after">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DD03 — Detail Views / Tabs -->
+      <div class="cs-dd-row">
+        <div>
+          <div class="dd-num">03</div>
+          <h3 class="dd-title">Tabbed navigation for complex detail views</h3>
+          <p class="dd-body">Legacy detail pages crammed all information onto a single scrolling page — making it difficult to find specific data and easy to miss critical sections. For complex records like purchase orders and shipments, this created cognitive overload.</p>
+          <p class="dd-body">The redesigned detail views introduce organized tab navigation — grouping related information logically and keeping each tab focused. Users can jump directly to the section they need without scanning the entire record. The active tab state and consistent tab patterns across the platform reduce re-learning.</p>
+        </div>
+        <div class="dd-img">
+          <div class="cs-compare">
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">Before</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/_OLD/Purchase-Order-9900.png" alt="Purchase Order detail — before">
+            </div>
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">After</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/Purchase-Order-9900.png" alt="Purchase Order detail — after">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DD04 — Data Entry / Forms -->
+      <div class="cs-dd-row reverse">
+        <div>
+          <div class="dd-num">04</div>
+          <h3 class="dd-title">Refined data entry: forms that guide, not obstruct</h3>
+          <p class="dd-body">Order entry and edit forms are high-stakes — mistakes have real downstream cost. The legacy forms mixed input fields with display data, used inconsistent labels, and offered little guidance on field requirements or valid values.</p>
+          <p class="dd-body">The redesigned form patterns introduce clear field grouping, consistent label placement, inline validation feedback, and contextual helper text where needed. The result is a form that feels like a guided workflow rather than a data dump.</p>
+        </div>
+        <div class="dd-img">
+          <div class="cs-compare">
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">Before</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/_OLD/Order-Entry.png" alt="Order Entry — before">
+            </div>
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">After</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/Order-Entry.png" alt="Order Entry — after">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DD05 — Multi-step Workflows -->
+      <div class="cs-dd-row">
+        <div>
+          <div class="dd-num">05</div>
+          <h3 class="dd-title">Structured multi-step workflows with progress clarity</h3>
+          <p class="dd-body">Processes like confirming and shipping orders involve multiple sequential steps with distinct data at each stage. The legacy interface presented all steps at once or used ambiguous navigation that left users unsure of where they were in the process.</p>
+          <p class="dd-body">The platform rebuild introduced a clear tabbed step structure — each step surfacing only the relevant data and actions, with clear progress indicators. Users know exactly where they are, what they've completed, and what's next.</p>
+        </div>
+        <div class="dd-img">
+          <div class="cs-compare">
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">Before</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/_OLD/Confirm-Ship-Order---774.png" alt="Confirm Ship Order — before">
+            </div>
+            <div class="cs-compare-pane">
+              <div class="cs-compare-label">After</div>
+              <img src="../assets/portgrabs/_PHX%20Screens/Confirm-Ship-Order-%E2%80%94-774-tab1.png" alt="Confirm Ship Order — after">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- New Screens Gallery -->
+  <section class="cs-gallery">
+    <div class="cs-gallery-inner">
+      <div class="cs-gallery-header">
+        <p class="cs-section-label">More From the Rebuild</p>
+        <h2 class="cs-section-title">Additional screens from the rebuild</h2>
+      </div>
+      <div class="cs-gallery-grid">
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Vendor-Shipments.png" alt="Vendor Shipments list">
+          <div class="cs-gallery-caption">Vendor Shipments</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Vendor-Shipments-1017-Edit.png" alt="Vendor Shipment edit view">
+          <div class="cs-gallery-caption">Vendor Shipment — Edit</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Vendor-ShipmentRequests.png" alt="Vendor Shipment Requests">
+          <div class="cs-gallery-caption">Vendor Shipment Requests</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Time-Slips.png" alt="Time Slips">
+          <div class="cs-gallery-caption">Time Slips</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Task-Ohio-Furry-Convention-Meetings.png" alt="Task detail view">
+          <div class="cs-gallery-caption">Task Detail</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Inbox.png" alt="Inbox">
+          <div class="cs-gallery-caption">Inbox</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Projects-1947.png" alt="Project detail">
+          <div class="cs-gallery-caption">Project Detail</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Warehouse-Stations.png" alt="Warehouse Stations">
+          <div class="cs-gallery-caption">Warehouse Stations</div>
+        </div>
+        <div class="cs-gallery-item">
+          <img src="../assets/portgrabs/_PHX%20Screens/Buyer-Planners.png" alt="Buyer Planners">
+          <div class="cs-gallery-caption">Buyer Planners</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section class="cs-results">
+    <div class="cs-results-inner">
+      <p class="cs-section-label">Impact</p>
+      <h2 class="cs-section-title">A platform transformed — section by section</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="result-label">Modern Stack</div>
+          <div class="result-value">Vue / TypeScript</div>
+          <p class="result-desc">Legacy code replaced with a maintainable, performant Vue/TypeScript front-end. Each rebuilt section is cleaner, faster, and easier to extend — building a foundation for long-term product health.</p>
+        </div>
+        <div class="result-card">
+          <div class="result-label">Design System</div>
+          <div class="result-value">Built &amp; Evolving</div>
+          <p class="result-desc">Created and continue to evolve a unified design system — covering components, patterns, color, and typography that brings consistency across an entire enterprise platform for the first time.</p>
+        </div>
+        <div class="result-card">
+          <div class="result-label">UX Improvements</div>
+          <div class="result-value">Every Page</div>
+          <p class="result-desc">The conversion wasn't just a technical rewrite. Every section gained usability improvements — better list views, tabbed detail views, improved forms, and new workflows that reduce friction and errors in daily operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Role + AI -->
+  <div class="cs-next-role">
+    <div>
+      <p class="cs-next-label">AI as Accelerator</p>
+      <h3 class="cs-next-title">How I used AI throughout the project</h3>
+      <ul class="cs-next-list">
+        <li>Planning: used AI to analyze legacy pages, surface UX issues, and draft component and layout specifications before writing a line of code.</li>
+        <li>Building: leveraged AI to generate Vue/TypeScript component scaffolding and implement interaction patterns, then refined and reviewed all output.</li>
+        <li>Testing &amp; debugging: used AI to identify edge cases, trace bugs, and validate front-end behavior against design intent — significantly reducing debug cycles.</li>
+        <li>Design decisions: AI helped model alternative layouts and interaction patterns quickly, enabling faster comparison and iteration with stakeholders.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="cs-next-label">My Role</p>
+      <h3 class="cs-next-title">UX/UI Designer &amp; Front-End Developer</h3>
+      <ul class="cs-role-list">
+        <li>Created and continue to evolve the new design system</li>
+        <li>UX/UI design for every rebuilt section</li>
+        <li>Vue/TypeScript front-end development</li>
+        <li>Led usability discussions and feature improvement planning</li>
+        <li>Identified and drove UX enhancements during conversion</li>
+        <li>AI-accelerated planning, building, and testing throughout</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="cs-footer">
+    <div class="cs-footer-inner">
+      <div class="cs-footer-left">
+        <div class="footer-name">Ward Seward</div>
+        <div class="footer-title">Senior UX Designer · CUA</div>
+      </div>
+      <div class="cs-footer-links">
+        <a href="../work.html">← Back to Work</a>
+        <a href="https://linkedin.com/in/wardseward" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/lightbox.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartSpec 2.0 — Ward Seward</title>
+  <meta name="description" content="Case study: SmartSpec 2.0 Online Product Configurator — UX/UI redesign for Caldwell Group.">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon_io/favicon-16x16.png">
+  <link rel="shortcut icon" href="../assets/favicon_io/favicon.ico">
+  <link rel="manifest" href="../assets/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">Ward Seward</a>
+      <ul class="nav-links">
+        <li><a href="../work.html">← Work</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../resume.html">Resume</a></li>
+        <li class="nav-cta"><a href="../contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="cs-hero">
+    <div class="cs-hero-inner">
+      <p class="cs-meta">Case Study · UX Design · 2024–2025</p>
+      <h1 class="cs-title">SmartSpec 2.0 —<br>Online Product Configurator</h1>
+      <p class="cs-subtitle">Redesigned Caldwell's custom lifting device configurator for crane/rigging and construction users. Turned a complex, manual quoting process into a guided experience that responds in minutes, not days.</p>
+      <div class="cs-stats">
+        <div class="cs-stat">
+          <div class="cs-stat-value">+60%</div>
+          <div class="cs-stat-label">Usage — week 1 post-launch</div>
+        </div>
+        <div class="cs-stat">
+          <div class="cs-stat-value">10+ hrs</div>
+          <div class="cs-stat-label">Saved per salesperson / month</div>
+        </div>
+        <div class="cs-stat">
+          <div class="cs-stat-value">Days→Min</div>
+          <div class="cs-stat-label">Quote &amp; drawing turnaround</div>
+        </div>
+        <div class="cs-stat" style="border-right: none; padding-right: 0; margin-right: 0;">
+          <div class="cs-stat-role">UI/UX Designer &amp; Usability Lead</div>
+          <div class="cs-stat-label">The Caldwell Group, Inc.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Image -->
+  <div class="cs-hero-img">
+    <img src="../assets/portgrabs/caldwell/smartspec_m20-1.png" alt="SmartSpec configurator — M20 Lifter Capacity step">
+  </div>
+
+  <!-- Problem + Goals -->
+  <div class="cs-two-col">
+    <div>
+      <p class="cs-section-label">The Problem</p>
+      <h2 class="cs-section-title">A powerful tool that was slowing everyone down</h2>
+      <ul class="cs-bullets">
+        <li><strong>Slow, manual quoting.</strong> Every custom tweak required manual recalculation and back-and-forth. Getting a complete quote package often took days to a week or more.</li>
+        <li><strong>Complex, error-prone configuration.</strong> The original interface exposed engineering complexity — leaving room for misinterpretation and costly errors.</li>
+        <li><strong>Registration wall.</strong> Only registered users could access SmartSpec, blocking distributors from sharing it with customers early in the process.</li>
+        <li><strong>Heavy internal workload.</strong> Sales and engineering teams spent significant time translating customer intent into valid specs, checking calculations, and coordinating drawings.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="cs-section-label">Goals</p>
+      <h2 class="cs-section-title">What success looked like</h2>
+      <ol class="cs-numbered">
+        <li><span class="num">01</span> Make complex configuration feel simple and guided for both technical and non-technical users.</li>
+        <li><span class="num">02</span> Increase SmartSpec adoption and usage, measured via Google Analytics.</li>
+        <li><span class="num">03</span> Shorten time-to-quote from days/weeks to minutes for most configurations.</li>
+        <li><span class="num">04</span> Expand access beyond registered users; reduce manual back-office work through automation.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- Design Decisions -->
+  <section class="cs-dd-section">
+    <div class="cs-dd-section-inner">
+      <div class="cs-dd-header">
+        <p class="cs-section-label">Key Design Decisions</p>
+        <h2 class="cs-section-title">How we solved it</h2>
+      </div>
+
+      <!-- DD01 -->
+      <div class="cs-dd-row">
+        <div>
+          <div class="dd-num">01</div>
+          <h3 class="dd-title">Guided, step-by-step configuration</h3>
+          <p class="dd-body">Reorganized configuration into a logical progression — starting with what users are lifting and how, moving through capacity, dimensions, and attachment options with guardrails that prevent invalid combinations.</p>
+          <p class="dd-body">Outcome: reduced guesswork, fewer wrong turns, and a smoother path for both first-time and experienced users.</p>
+        </div>
+        <div class="dd-img">
+          <img src="../assets/portgrabs/caldwell/smartspec_m20-1.png" alt="SmartSpec step-by-step guided flow">
+        </div>
+      </div>
+
+      <!-- DD02 -->
+      <div class="cs-dd-row reverse">
+        <div>
+          <div class="dd-num">02</div>
+          <h3 class="dd-title">Designed for experts and non-experts alike</h3>
+          <p class="dd-body">The same interface had to work for distributors and engineers who know exact load ratings and standards — and for customers who just know "I need to lift X safely." Clear labeling, defaults, and consistent patterns reduced re-learning.</p>
+          <div class="callout">"Does the heavy lifting with the push of a button."</div>
+        </div>
+        <div class="dd-img">
+          <img src="../assets/portgrabs/caldwell/smartspec_m20-2.png" alt="SmartSpec configuration options">
+        </div>
+      </div>
+
+      <!-- DD03 -->
+      <div class="cs-dd-row">
+        <div>
+          <div class="dd-num">03</div>
+          <h3 class="dd-title">Opened access to anonymous users</h3>
+          <p class="dd-body">Introduced anonymous/non-registered use while still routing pricing and follow-up appropriately. Distributors can now share a direct URL with customers, who can explore configurations on their own before talking to a rep.</p>
+        </div>
+        <div class="dd-img">
+          <img src="../assets/portgrabs/caldwell/smartspec_hooks_pins.png" alt="SmartSpec hooks and pins configuration">
+        </div>
+      </div>
+
+      <!-- DD04 -->
+      <div class="cs-dd-row reverse">
+        <div>
+          <div class="dd-num">04</div>
+          <h3 class="dd-title">Automation removed manual back-office steps</h3>
+          <p class="dd-body">Worked with engineering to automate parts of the specification, calculation, and drawing/quote request handoff, so a valid configuration can move further through the pipeline without human intervention — freeing salespeople for higher-value work.</p>
+        </div>
+        <div class="dd-img">
+          <img src="../assets/portgrabs/caldwell/smartspec_rud_product.png" alt="SmartSpec RUD product variety">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Results -->
+  <section class="cs-results">
+    <div class="cs-results-inner">
+      <p class="cs-section-label">Results</p>
+      <h2 class="cs-section-title">What happened after launch</h2>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="result-label">Usage &amp; Adoption</div>
+          <div class="result-value">+60%</div>
+          <p class="result-desc">Usage increased roughly 60% in the first week based on Google Analytics and stayed at that higher level over time. Anonymous access brought in first-time users and made distributor sharing seamless.</p>
+        </div>
+        <div class="result-card">
+          <div class="result-label">Speed &amp; Efficiency</div>
+          <div class="result-value">Days → Min</div>
+          <p class="result-desc">Quoting moved from "days, sometimes a week or more" to minutes for many scenarios. Salespeople saved an estimated 10+ hours per month each on manual spec-ing and follow-up for custom orders.</p>
+        </div>
+        <div class="result-card">
+          <div class="result-label">Experience &amp; Brand</div>
+          <div class="result-value">"A game-changer in how quickly we respond."</div>
+          <p class="result-desc">Users described SmartSpec as faster, more intuitive, and a game-changer. Internal stakeholders noted the new SmartSpec "does the heavy lifting with the push of a button."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Next Steps + My Role -->
+  <div class="cs-next-role">
+    <div>
+      <p class="cs-next-label">What I'd Explore Next</p>
+      <h3 class="cs-next-title">If the work continued</h3>
+      <ul class="cs-next-list">
+        <li>Deeper analytics on flow drop-offs, task completion, and error patterns by segment (distributor vs. end customer).</li>
+        <li>More embedded guidance and example-driven starting templates for common lifting scenarios.</li>
+        <li>Progressive disclosure of advanced options to avoid overwhelming non-experts.</li>
+        <li>A structured usability research program with periodic tests across key user groups, including accessibility reviews.</li>
+      </ul>
+    </div>
+    <div>
+      <p class="cs-next-label">My Role</p>
+      <h3 class="cs-next-title">UI/UX Designer &amp; Usability Lead</h3>
+      <ul class="cs-role-list">
+        <li>UX strategy and end-to-end interaction design</li>
+        <li>Translating engineering constraints into guided flows</li>
+        <li>Planning and facilitating usability feedback cycles</li>
+        <li>Defining automation &amp; workflow requirements</li>
+        <li>Collaborating with marketing on brand alignment</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="cs-footer">
+    <div class="cs-footer-inner">
+      <div class="cs-footer-left">
+        <div class="footer-name">Ward Seward</div>
+        <div class="footer-title">Senior UX Designer · CUA</div>
+      </div>
+      <div class="cs-footer-links">
+        <a href="../work.html">← Back to Work</a>
+        <a href="https://linkedin.com/in/wardseward" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/lightbox.js"></script>
+</body>
+</html>
