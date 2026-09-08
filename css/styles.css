@@ -281,9 +281,8 @@ a { color: inherit; text-decoration: none; }
 }
 .featured-card-img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
+  height: auto;
+  object-position: 50% 50%;
 }
 .featured-card-body {
   padding: 48px;
@@ -476,8 +475,7 @@ a { color: inherit; text-decoration: none; }
 
 .cs-bullets { list-style: none; display: flex; flex-direction: column; gap: 16px; }
 .cs-bullets li {
-  display: flex;
-  gap: 12px;
+  
   font-size: 15px;
   color: var(--body);
   line-height: 1.6;
